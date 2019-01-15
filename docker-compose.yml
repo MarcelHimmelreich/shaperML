@@ -1,0 +1,49 @@
+version: '3.5'
+
+services:
+ nginx:
+  build: services/nginx/
+  restart: always
+  ports:
+    - 80:80
+  deploy:
+    mode: replicated
+    replicas: 3
+  depends_on:
+    - shapercore
+
+ shapercore:
+  build: ./shapercore
+  restart: always
+  expose:
+    - 8000
+  volumes:
+    - ./shapercore:/home/flask/app/web
+  depends_on:
+    - postgres
+    - redis
+  environment:
+   FLASK_DEBUG: 1
+  deploy:
+   mode: replicated
+   replicas: 3
+
+ redis:
+  image: redis:alpine
+  restart: always
+  deploy:
+    mode: replicated
+    replicas: 3
+
+
+ postgres:
+  restart: always
+  image: postgres:alpine
+  volumes:
+   - ./services/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+   - ./services/postgres/data:/var/lib/postgresql/data
+  environment:
+   POSTGRES_PASSWORD: postgres
+   POSTGRES_DB: postgres
+  expose:
+   - 5432
