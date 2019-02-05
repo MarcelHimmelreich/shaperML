@@ -1,24 +1,18 @@
-from abc import abstractmethod
-from shapercore.Modules.metaclass.Module import Module
+from shapercore.Modules.metaclass.Module_Data import Data
 
 
-class Data(metaclass=Module):
+class UploadToDatabase(Data):
     def __init__(self):
         pass
 
-    @abstractmethod
     def function(self):
         pass
 
-    @abstractmethod
     def requirement(self):
         pass
 
-    @abstractmethod
     def test_unit(self):
         pass
 
-    @abstractmethod
     def execute(self, element):
         pass
-

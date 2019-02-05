@@ -1,6 +1,69 @@
 version: '3.5'
 
 services:
+ prometheus:
+   image: quay.io/prometheus/prometheus:v2.0.0
+   restart: always
+   volumes:
+    - ./services/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+   command: "--config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/prometheus"
+   ports:
+    - "9090:9090"
+   depends_on:
+    - node-exporter
+
+ node-exporter:
+  image: prom/node-exporter:latest
+
+ grafana:
+  image: grafana/grafana
+  links:
+    - prometheus
+    - postgres
+    - minio
+    - shapercore
+  ports:
+   - "3000:3000"
+  depends_on:
+   - prometheus
+
+ superset:
+  image: tylerfowler/superset
+  restart: unless-stopped
+  environment:
+    POSTGRES_DB: superset
+    POSTGRES_USER: superset
+    POSTGRES_PASSWORD: superset
+    POSTGRES_HOST: postgres
+    POSTGRES_PORT: 5432
+    MINIO_HOST: minio
+    MINIO_PORT: 9000
+    # If using production, comment development volume below
+    #SUPERSET_ENV: production
+    SUPERSET_ENV: development
+  ports:
+   - 8088:8088
+  depends_on:
+   - postgres
+   - minio
+  volumes:
+   # this is needed to communicate with the postgres and redis services
+   - ./superset_config.py:/home/superset/superset/superset_config.py
+   # this is needed for development, remove with SUPERSET_ENV=production
+   - ../../superset:/home/superset/superset
+
+ jupyter:
+  build:
+   context: ./services/jupyter
+  volumes:
+   - ./services/jupyter/notebooks:/notebooks
+   - ./services/jupyter/data:/data
+  links:
+   - postgres
+  ports:
+   - 8888:8888
+
+
  nginx:
   build: services/nginx/
   restart: always
@@ -13,7 +76,7 @@ services:
     - shapercore
 
  shapercore:
-  build: ./shapercore
+  build: ./shapercore/subse
   restart: always
   expose:
     - 8000
@@ -21,20 +84,20 @@ services:
     - ./shapercore:/home/flask/app/web
   depends_on:
     - postgres
-    - redis
+    - minio
   environment:
    FLASK_DEBUG: 1
   deploy:
    mode: replicated
    replicas: 3
 
- redis:
-  image: redis:alpine
+ minio:
+  image: minio/minio
   restart: always
-  deploy:
-    mode: replicated
-    replicas: 3
-
+  volumes:
+    - minio_volume:/data
+  ports:
+    - 9000:9000
 
  postgres:
   restart: always
@@ -43,7 +106,19 @@ services:
    - ./services/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
    - ./services/postgres/data:/var/lib/postgresql/data
   environment:
-   POSTGRES_PASSWORD: postgres
-   POSTGRES_DB: postgres
+   POSTGRES_USER: superset
+   POSTGRES_PASSWORD: superset
+   POSTGRES_DB: superset
   expose:
    - 5432
+
+
+volumes:
+  postgres:
+    external: false
+  minio_volume:
+    external: false
+  portainer_volume:
+    external: false
+
+

@@ -20,5 +20,5 @@ class Data(metaclass=Module):
         pass
 
     @abstractmethod
-    def execute(self):
+    def execute(self, element):
         pass
