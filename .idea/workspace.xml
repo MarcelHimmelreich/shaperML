@@ -2,39 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3d4f38-2131-4cf6-a6a9-8a42ee6dc107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/services/jupyter/jupyter.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/prometheus/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/superset/superset-init" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/superset/superset-init.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/superset/superset_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/Database/UploadToDatabase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/expand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/shrink.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Optimizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Visitor/Data/LoadFromDatabase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Visitor/Data/UpdateData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Visitor/Data/UploadData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/fill_empty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/interpolate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/split.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data_manipulation/Database/LoadFromDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data_manipulation/Database/LoadIntoDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/fastapi/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data_manipulation/File_Storage/LoadFromStorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/jupyter/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data_manipulation/File_Storage/LoadIntoStorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/jupyter/config.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/metaclass/Module.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/metaclass/Module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelEncode.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelEncode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_MaxAbsScaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_MaxAbsScaler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_minmaxscaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_minmaxscaler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_normalize.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_normalize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_standardscaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_standardscaler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Element.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/expand.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/expand.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/shrink.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +22,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Element.py">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/expand.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="270">
+              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#57#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/group.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="57" lean-forward="true" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -66,90 +52,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py">
+        <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/PreprocessVisitor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="9390">
+              <caret line="626" lean-forward="true" selection-start-line="626" selection-end-line="626" />
               <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelEncode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="67" selection-start-column="67" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_MaxAbsScaler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_minmaxscaler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_normalize.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_standardscaler.py">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/fill_empty.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#0#67#0" expanded="true" />
+                <element signature="e#0#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,13 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Classification/SVM.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Regression/SVM.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/data_manipulation/Database/LoadFromDatabase.py" />
-        <option value="$PROJECT_DIR$/shapercore/test.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/metaclass/meta_data_manipulation.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Natural_Language.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Learning.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/fit.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/predict.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/data_manipulation/Database/LoadIntoDatabase.py" />
@@ -192,8 +105,6 @@
         <option value="$PROJECT_DIR$/shapercore/Visitor/Expression/expression.py" />
         <option value="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Model.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/metaclass/Module.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/data/manipulation/expand.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/data/manipulation/shrink.py" />
         <option value="$PROJECT_DIR$/shapercore/Client.py" />
         <option value="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Element.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py" />
@@ -221,6 +132,15 @@
         <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_normalize.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_minmaxscaler.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/data/manipulation/expand.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/data/manipulation/shrink.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/mask.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/interpolate.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/sort.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/split.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense_simple.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/fill_empty.py" />
       </list>
     </option>
   </component>
@@ -284,6 +204,21 @@
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="manipulation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="metaclass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,13 +227,27 @@
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="MetaClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -418,47 +367,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shapercore/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/predict.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/fit.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/Learning/predict.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/Learning/fit.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/Preprocessing/normalize.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/Preprocessing/labelencode.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Visitor/Preprocessing/onehot.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Visitor/NaturalLanguage/lowercase.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/shrink.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/expand.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/Database/UploadToDatabase.py">
@@ -630,40 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/MetaElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_standardscaler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -711,6 +589,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_normalize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -721,12 +609,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py">
+    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#0#67#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/FeatureSetVisitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="205" column="34" lean-forward="true" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/expand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/MetaElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" lean-forward="true" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/interpolate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/mask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="78" lean-forward="true" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/PreprocessVisitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9390">
+          <caret line="626" lean-forward="true" selection-start-line="626" selection-end-line="626" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/fill_empty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
