@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3d4f38-2131-4cf6-a6a9-8a42ee6dc107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/lemma_tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/named_entity_tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/nl_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/pos_tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/word_list_entry_tokenizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/join.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/lemmatize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/lowercase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/ngram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/remove_character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/remove_punctuation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/stem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/uppercase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/character_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/longest_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/mean_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/start_with_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/text_to_binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/accuracy_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/f1_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/precision_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/r2_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/recall_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/cross_validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/set_estimator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/nl_processor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="510">
+              <caret line="34" column="86" lean-forward="true" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
               </folding>
@@ -44,10 +32,105 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/ModelVisitor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/f1_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/r2_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/accuracy_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/recall_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/precision_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/set_estimator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/cross_validation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/processor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state>
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,13 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shapercore/Visitor/Data/LoadFromDatabase.py" />
-        <option value="$PROJECT_DIR$/shapercore/Visitor/Data/UploadData.py" />
-        <option value="$PROJECT_DIR$/shapercore/Optimizer.py" />
-        <option value="$PROJECT_DIR$/services/superset/superset_config.py" />
-        <option value="$PROJECT_DIR$/services/superset/superset-init" />
-        <option value="$PROJECT_DIR$/services/superset/Dockerfile" />
-        <option value="$PROJECT_DIR$/services/superset/superset-init.sh" />
         <option value="$PROJECT_DIR$/services/jupyter/config.env" />
         <option value="$PROJECT_DIR$/services/jupyter/jupyter.pem" />
         <option value="$PROJECT_DIR$/services/jupyter/Dockerfile" />
@@ -118,6 +194,13 @@
         <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/word_list_entry_tokenizer.py" />
         <option value="$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/NaturalLanguageProcessing/LanguageProcessor.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/nl_processor.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/set_estimator.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/cross_validation.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/f1_score.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/accuracy_score.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/precision_score.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/recall_score.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/r2_score.py" />
       </list>
     </option>
   </component>
@@ -154,12 +237,6 @@
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="prometheus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -173,31 +250,51 @@
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="natural_language" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="natural_language" type="462c0819:PsiDirectoryNode" />
-              <item name="language_processor" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="natural_language" type="462c0819:PsiDirectoryNode" />
-              <item name="nltk" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="natural_language" type="462c0819:PsiDirectoryNode" />
-              <item name="text_to_numeric" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="Metric" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,7 +393,7 @@
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27908218" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2854856" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,67 +416,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/jupyter/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/jupyter/config.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Learning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Natural_Language.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Model.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/metaclass/Module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_standardscaler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -652,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/NaturalLanguageProcessing/LanguageProcessor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-919">
@@ -666,12 +695,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/nl_processor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="510">
+          <caret line="34" column="86" lean-forward="true" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/ModelVisitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/f1_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/r2_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/accuracy_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/recall_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/precision_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/set_estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
