@@ -7,14 +7,6 @@ class Data(metaclass=Module):
         pass
 
     @abstractmethod
-    def function(self):
-        pass
-
-    @abstractmethod
-    def requirement(self):
-        pass
-
-    @abstractmethod
     def test_unit(self):
         pass
 
