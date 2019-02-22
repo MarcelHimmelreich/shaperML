@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3d4f38-2131-4cf6-a6a9-8a42ee6dc107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/services/tensorboard/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkDataType.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkFeatureVector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkNumeric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Utility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadToDatabase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/services/nginx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/services/nginx/config/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/prometheus/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/Database/UploadToDatabase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,70 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkFeatureVector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkString.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="11" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkNumeric.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkDataType.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#4#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -92,41 +34,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py">
+        <entry file="file://$PROJECT_DIR$/services/prometheus/prometheus.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="89" column="17" lean-forward="true" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/nginx/config/nginx.conf">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/Utility.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="26" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/PrintVisitor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/FeatureSetVisitor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="205" column="34" lean-forward="true" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -144,15 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Preprocessing.py" />
-        <option value="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelEncode.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_MaxAbsScaler.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_standardscaler.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_normalize.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_minmaxscaler.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/data/manipulation/expand.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/data/manipulation/shrink.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/mask.py" />
@@ -195,6 +118,15 @@
         <option value="$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkNumeric.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkString.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/data/manipulation/checkDataType.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/data/Database/UploadToDatabase.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadToDatabase.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py" />
+        <option value="$PROJECT_DIR$/services/nginx/config/portainer.conf" />
+        <option value="$PROJECT_DIR$/services/nginx/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/services/prometheus/prometheus.yml" />
       </list>
     </option>
   </component>
@@ -233,6 +165,31 @@
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="postgres" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="prometheus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="superset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,6 +216,14 @@
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="manipulation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -273,9 +238,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/nginx/config" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/shapercore" />
       <recent name="$PROJECT_DIR$/shapercore/Modules/natural_language" />
       <recent name="$PROJECT_DIR$/shapercore/Modules" />
-      <recent name="$PROJECT_DIR$/shapercore/preprocessing/scikit-learn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,7 +324,7 @@
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.291889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2950907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -380,42 +347,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/PreprocessVisitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9390">
-          <caret line="626" lean-forward="true" selection-start-line="626" selection-end-line="626" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/manipulation/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" lean-forward="true" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/MetaElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/lowercase.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/lemmatize.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/join.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/uppercase.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/remove_character.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -596,45 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/FeatureSetVisitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="205" column="34" lean-forward="true" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/Database/UploadToDatabase.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/PrintVisitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Utility.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -645,32 +537,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/Utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -716,6 +585,141 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/Utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/PrintVisitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/FeatureSetVisitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3000">
+          <caret line="205" column="34" lean-forward="true" selection-start-line="205" selection-start-column="34" selection-end-line="205" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/config/portainer.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/portainer-compose-master/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/Database/LoadToDatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/postgres/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/prometheus/prometheus.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="89" column="17" lean-forward="true" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/config/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

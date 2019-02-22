@@ -4,8 +4,8 @@ global:
         monitor: 'my-monitor'
 scrape_configs:
     - job_name: 'prometheus'
-      target_groups:
+      static_configs:
           - targets: ['localhost:9090']
     - job_name: 'node-exporter'
-      target_groups:
+      static_configs:
           - targets: ['node-exporter:9100']

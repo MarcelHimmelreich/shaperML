@@ -14,6 +14,8 @@ services:
 
  node-exporter:
   image: prom/node-exporter:latest
+  ports:
+    - "9100:9100"
 
  grafana:
   image: grafana/grafana
@@ -37,7 +39,7 @@ services:
     POSTGRES_HOST: postgres
     POSTGRES_PORT: 5432
     MINIO_HOST: minio
-    MINIO_PORT: 9000
+    MINIO_PORT: 9009
     # If using production, comment development volume below
     #SUPERSET_ENV: production
     SUPERSET_ENV: development
@@ -62,7 +64,6 @@ services:
    - postgres
   ports:
    - 8888:8888
-
 
  nginx:
   build: services/nginx/
@@ -97,7 +98,11 @@ services:
   volumes:
     - minio_volume:/data
   ports:
-    - 9000:9000
+    - 9009:9009
+  environment:
+   MINIO_ACCESS_KEY: minio
+   MINIO_SECRET_KEY: minio123
+  command: server /data
 
  postgres:
   restart: always
@@ -111,7 +116,6 @@ services:
    POSTGRES_DB: superset
   expose:
    - 5432
-
 
 volumes:
   postgres:
