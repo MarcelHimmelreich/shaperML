@@ -6,11 +6,8 @@ class Data(metaclass=Module):
     def __init__(self):
         pass
 
-    @abstractmethod
-    def test_unit(self):
-        pass
 
     @abstractmethod
-    def execute(self, element):
+    def visit(self, element):
         pass
 

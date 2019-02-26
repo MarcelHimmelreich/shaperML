@@ -28,6 +28,7 @@ services:
    - "3000:3000"
   depends_on:
    - prometheus
+   - postgres
 
  superset:
   image: tylerfowler/superset
@@ -114,8 +115,8 @@ services:
    POSTGRES_USER: superset
    POSTGRES_PASSWORD: superset
    POSTGRES_DB: superset
-  expose:
-   - 5432
+  ports:
+   - 5432:5432
 
 volumes:
   postgres:

@@ -7,18 +7,5 @@ class Data(metaclass=Module):
         pass
 
     @abstractmethod
-    def function(self):
-        pass
-
-    @abstractmethod
-    def requirement(self):
-        """ Apply function only on numeric values"""
-        pass
-
-    @abstractmethod
-    def unit_test(self):
-        pass
-
-    @abstractmethod
     def execute(self, element):
         pass
