@@ -15,6 +15,15 @@ class Dataframe(Element):
     def set_dataframe(self, dataframe):
         self._dataframe = dataframe
 
+    def set_dataframe_values(self, value):
+        self._dataframe.values = value
+
+    def set_column_values(self, column, value):
+        self._dataframe[column].values = value
+
+    def set_column(self, column, value):
+        self._dataframe[column] = value
+
     def set_name(self, name):
         self._name = name
 
@@ -29,6 +38,15 @@ class Dataframe(Element):
 
     def get_dataframe(self):
         return self._dataframe
+
+    def get_dataframe_values(self):
+        return self._dataframe.values
+
+    def get_column_values(self, column):
+        return self._dataframe[column].values
+
+    def get_column(self, column):
+        return self._dataframe[column]
 
     def get_name(self):
         return self._name
