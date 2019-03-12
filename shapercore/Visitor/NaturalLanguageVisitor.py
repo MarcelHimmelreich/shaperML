@@ -17,10 +17,17 @@ from shapercore.Modules.natural_language.nltk.remove_character import RemoveChar
 from shapercore.Modules.natural_language.nltk.remove_punctuation import RemovePunctuation
 from shapercore.Modules.natural_language.nltk.stem import Stemmer
 
+from shapercore.Modules.natural_language.text_to_numeric.character_sum import CharacterSum
+from shapercore.Modules.natural_language.text_to_numeric.longest_word import LongestWord
+from shapercore.Modules.natural_language.text_to_numeric.mean_word import MeanWord
+from shapercore.Modules.natural_language.text_to_numeric.start_with_number import StartWithNumber
+from shapercore.Modules.natural_language.text_to_numeric.text_to_binary import TextToBinary
+
 #Required
 # Table Column Parameter
 
 app = FASTAPI()
+
 
 @app.put("/nl/lowercase/{table, column}")
 def lowercase(table: str, column: str):
@@ -45,6 +52,7 @@ def uppercase(table: str, column: str):
     dataframe = uppercase.visit(dataframe)
     upload.visit(dataframe)
 
+
 @app.put("/nl/lemmatize/{table, column}")
 def lemmatize(table: str, column: str):
     dataframe = Dataframe()
@@ -55,6 +63,7 @@ def lemmatize(table: str, column: str):
     dataframe = download.visit(dataframe)
     dataframe = lemmatize.visit(dataframe)
     upload.visit(dataframe)
+
 
 @app.put("/nl/stem/{table, column}")
 def stem(table: str, column: str):
@@ -67,6 +76,7 @@ def stem(table: str, column: str):
     dataframe = stem.visit(dataframe)
     upload.visit(dataframe)
 
+
 @app.put("/nl/ngram/{table, column}")
 def ngram(table: str, column: str, value: int):
     dataframe = Dataframe()
@@ -77,6 +87,7 @@ def ngram(table: str, column: str, value: int):
     dataframe = download.visit(dataframe)
     dataframe = ngram.visit(dataframe)
     upload.visit(dataframe)
+
 
 @app.put("/nl/remove_punctuation/{table, column}")
 def remove_punctuation(table: str, column: str):
@@ -89,6 +100,7 @@ def remove_punctuation(table: str, column: str):
     dataframe = remove.visit(dataframe)
     upload.visit(dataframe)
 
+
 @app.put("/nl/remove_char/{table, column}")
 def remove_character(table: str, column: str, char: str):
     dataframe = Dataframe()
@@ -100,6 +112,7 @@ def remove_character(table: str, column: str, char: str):
     dataframe = remove.visit(dataframe)
     upload.visit(dataframe)
 
+
 @app.put("/nl/join/{table, column}")
 def join(table: str, column: str, char: str):
     dataframe = Dataframe()
@@ -110,3 +123,65 @@ def join(table: str, column: str, char: str):
     dataframe = download.visit(dataframe)
     dataframe = join.visit(dataframe)
     upload.visit(dataframe)
+
+
+@app.put("/nl/character_sum/{table, column}")
+def character_sum(table: str, column: str, char: str):
+    dataframe = Dataframe()
+    download = LoadFromDatabase(table=table, column=column)
+    upload = LoadToDatabase(table=table, column=column)
+    sum = CharacterSum(column=column)
+
+    dataframe = download.visit(dataframe)
+    dataframe = sum.visit(dataframe)
+    upload.visit(dataframe)
+
+
+@app.put("/nl/longest_word/{table, column}")
+def longest_word(table: str, column: str, char: str):
+    dataframe = Dataframe()
+    download = LoadFromDatabase(table=table, column=column)
+    upload = LoadToDatabase(table=table, column=column)
+    word = LongestWord(column=column)
+
+    dataframe = download.visit(dataframe)
+    dataframe = word.visit(dataframe)
+    upload.visit(dataframe)
+
+
+@app.put("/nl/mean_word/{table, column}")
+def mean_word(table: str, column: str, char: str):
+    dataframe = Dataframe()
+    download = LoadFromDatabase(table=table, column=column)
+    upload = LoadToDatabase(table=table, column=column)
+    word = MeanWord(column=column)
+
+    dataframe = download.visit(dataframe)
+    dataframe = word.visit(dataframe)
+    upload.visit(dataframe)
+
+
+@app.put("/nl/start_with_number/{table, column}")
+def start_number(table: str, column: str, char: str):
+    dataframe = Dataframe()
+    download = LoadFromDatabase(table=table, column=column)
+    upload = LoadToDatabase(table=table, column=column)
+    number = StartWithNumber(column=column)
+
+    dataframe = download.visit(dataframe)
+    dataframe = number.visit(dataframe)
+    upload.visit(dataframe)
+
+
+@app.put("/nl/text_binary/{table, column}")
+def text_binary(table: str, column: str, char: str):
+    dataframe = Dataframe()
+    download = LoadFromDatabase(table=table, column=column)
+    upload = LoadToDatabase(table=table, column=column)
+    binary = TextToBinary(column=column)
+
+    dataframe = download.visit(dataframe)
+    dataframe = binary.visit(dataframe)
+    upload.visit(dataframe)
+
+

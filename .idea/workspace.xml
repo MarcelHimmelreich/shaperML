@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3d4f38-2131-4cf6-a6a9-8a42ee6dc107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shaperAPI/Learning/Learning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shaperAPI/NaturalLanguage/NaturalLanguage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shaperAPI/Preprocessing/Preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shapercore/Visitor/NaturalLanguageVisitor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadToDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadToDatabase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Visitor/NaturalLanguageVisitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Visitor/NaturalLanguageVisitor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,53 +27,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shapercore/Visitor/NaturalLanguageVisitor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state relative-caret-position="832">
+              <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/join.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/remove_character.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/ngram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -235,7 +187,7 @@
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="natural_language" type="462c0819:PsiDirectoryNode" />
-              <item name="nltk" type="462c0819:PsiDirectoryNode" />
+              <item name="text_to_numeric" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
@@ -629,52 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/character_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/text_to_binary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/mean_word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/longest_word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/start_with_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/NaturalLanguageProcessing/NaturalLanguageVisitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -832,10 +738,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/longest_word.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/mean_word.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/start_with_number.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/text_to_binary.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/character_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Visitor/NaturalLanguageVisitor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="832">
+          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
