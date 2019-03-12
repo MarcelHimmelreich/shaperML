@@ -5,12 +5,13 @@ from sqlalchemy import create_engine
 
 
 class LoadFromDatabase(Data):
-    def __init__(self):
+    def __init__(self, table, column):
+        self._table = table
+        self._column = column
         # Postgres
         # set up postgres connection
-        pwd = os.environ["SHARED_PASSWORD"]
-        con = create_engine(
-            "postgres://shared:{pwd}@postgres/shared".format(**locals()))
+        self.pwd = os.environ["SHARED_PASSWORD"]
+        self.con = create_engine("postgres://shared:{pwd}@postgres/shared".format(**locals()))
 
     def requirement(self):
         print("test")
@@ -18,7 +19,7 @@ class LoadFromDatabase(Data):
     def unit_test(self):
         print("test")
 
-    def execute(self):
+    def visit(self):
         # Load
         pd.read_sql(sql="SELECT * FROM sample", con=con)
 

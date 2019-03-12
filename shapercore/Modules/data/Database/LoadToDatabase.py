@@ -6,7 +6,9 @@ from sqlalchemy import create_engine
 
 
 class LoadToDatabase(Data):
-    def __init__(self):
+    def __init__(self, table, column):
+        self._table = table
+        self._column = column
         # Postgres
         # set up postgres connection
         pwd = os.environ["SHARED_PASSWORD"]
@@ -16,7 +18,7 @@ class LoadToDatabase(Data):
     def test_unit(self):
         pass
 
-    def execute(self, element):
+    def visit(self, element):
 
 
         # create a sample dataframe
