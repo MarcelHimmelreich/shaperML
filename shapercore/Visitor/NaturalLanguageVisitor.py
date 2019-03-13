@@ -187,7 +187,7 @@ def text_binary(table: str, column: str):
     upload.visit(dataframe)
 
 
-@app.put("/nl/text_binary/{table, column}")
+@app.put("/nl/processor/{table, column}")
 def nl_processor(table: str, column: str, extraction_target: str = "word", extraction_type: str = "bow",
                  measure: str = None, n_gram: bytearray = None):
     dataframe = Dataframe()

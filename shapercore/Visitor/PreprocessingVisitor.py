@@ -133,7 +133,7 @@ def labelbinarize(table: str, column: str, neg_label: int = 0, pos_label: int = 
 
 
 
-@app.put("/preprocessing/sort/{table, column}")
+@app.put("/preprocessing/labelencode/{table, column}")
 def labelencode(table: str, column: str, mode: str = "shuffle"):
     dataframe = Dataframe()
     download = LoadFromDatabase(table=table, column=column)
@@ -146,7 +146,7 @@ def labelencode(table: str, column: str, mode: str = "shuffle"):
 
 
 
-@app.put("/preprocessing/sort/{table, column}")
+@app.put("/preprocessing/maxscaler/{table, column}")
 def maxabsscaler(table: str, column: str, copy: bool = True):
     dataframe = Dataframe()
     download = LoadFromDatabase(table=table, column=column)
@@ -159,7 +159,7 @@ def maxabsscaler(table: str, column: str, copy: bool = True):
 
 
 
-@app.put("/preprocessing/sort/{table, column}")
+@app.put("/preprocessing/minscaler/{table, column}")
 def minmaxscaler(table: str, column: str, feature_range: bytearray = (0, 1), copy:  bool = True):
     dataframe = Dataframe()
     download = LoadFromDatabase(table=table, column=column)
@@ -172,7 +172,7 @@ def minmaxscaler(table: str, column: str, feature_range: bytearray = (0, 1), cop
 
 
 
-@app.put("/preprocessing/sort/{table, column}")
+@app.put("/preprocessing/normalize/{table, column}")
 def normalize(table: str, column: str):
     dataframe = Dataframe()
     download = LoadFromDatabase(table=table, column=column)
@@ -185,7 +185,7 @@ def normalize(table: str, column: str):
 
 
 
-@app.put("/preprocessing/sort/{table, column}")
+@app.put("/preprocessing/onehot/{table, column}")
 def onehot(table: str, column: str, categories: str = "auto", sparse: bool = True, n_values: str = "auto",
            categorical_features: str = "all"):
     dataframe = Dataframe()
@@ -199,7 +199,7 @@ def onehot(table: str, column: str, categories: str = "auto", sparse: bool = Tru
 
 
 
-@app.put("/preprocessing/sort/{table, column}")
+@app.put("/preprocessing/scale/{table, column}")
 def standardscale(table: str, column: str, copy: bool = True, with_mean: bool = True, with_std=True):
     dataframe = Dataframe()
     download = LoadFromDatabase(table=table, column=column)
