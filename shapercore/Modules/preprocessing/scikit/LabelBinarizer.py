@@ -1,10 +1,10 @@
-from shapercore.Modules.metaclass.Module_Preprocessing import  Data
+from shapercore.Modules.metaclass.Module_Preprocessing import Data
 from sklearn.preprocessing import LabelBinarizer
 from shapercore.Utility import Utility as Util
 
 
 class LabelBinarizer(Data):
-    def __init__(self, neg_label=0, pos_label=1, sparse_output = False):
+    def __init__(self, neg_label=0, pos_label=1, sparse_output=False):
         self._neg_label = neg_label
         self._pos_label = pos_label
         self._sparse_output = sparse_output

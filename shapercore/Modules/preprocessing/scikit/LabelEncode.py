@@ -1,21 +1,22 @@
 from shapercore.Modules.metaclass.Module_Preprocessing import  Data
-from sklearn.preprocessing import MaxAbsScaler
+from sklearn.preprocessing import LabelEncoder
+from shapercore.Utility import Utility as Util
 
 
-class MaxAbsScaler(Data):
-    def __init__(self, copy=True):
-        self._copy = copy
+class LabelEncoder(Data):
 
     def requirement(self):
-        """accept numeric values"""
+        """accept numeric and non-numeric values"""
 
     def execute(self, element):
         try:
-            processor = MaxAbsScaler(self._copy)
+            processor = LabelEncoder()
             dataframe = element.get_dataframe()
             data = processor.fit_transform(dataframe.values)
+            classes = processor.classes_
+            element.set_classes(classes)
             dataframe.values = data
             element.set_dataframe(dataframe)
         except Exception as error:
-            print("Unable to perform labelbinarize")
+            print("Unable to perform label encoding")
             print("Error: " + str(error))

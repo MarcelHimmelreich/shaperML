@@ -1,5 +1,6 @@
 from shapercore.Modules.metaclass.Module_Preprocessing import  Data
 from sklearn.preprocessing import Normalizer
+from shapercore.Utility import Utility as Util
 
 
 class Normalizer(Data):

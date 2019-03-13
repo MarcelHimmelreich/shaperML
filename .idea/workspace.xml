@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3d4f38-2131-4cf6-a6a9-8a42ee6dc107" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shapercore/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/LabelBinarizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelEncode.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/LabelEncode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_MaxAbsScaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/MaxAbsScaler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_minmaxscaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/minmaxscaler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_normalize.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/normalize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/onehot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_standardscaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/standardscaler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="420">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -33,66 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/standardscaler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelEncode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_MaxAbsScaler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_minmaxscaler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_normalize.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
@@ -115,13 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/preprocessing/scikit-learn/max_abs_scaler_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/preprocessing/scikit-learn/min_max_scaler_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/preprocessing/scikit-learn/normalize_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/preprocessing/scikit-learn/onehot_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/preprocessing/scikit-learn/standard_scaler_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Preprocessing.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py" />
         <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/preprocessing/pandas/condense_test.py" />
         <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/unit_test.py" />
         <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/preprocessing/pandas/mask_test.py" />
@@ -164,8 +108,15 @@
         <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/fill_empty.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/split.py" />
-        <option value="$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/LabelEncode.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/MaxAbsScaler.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/minmaxscaler.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/normalize.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/onehot.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/LabelBinarizer.py" />
+        <option value="$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/standardscaler.py" />
       </list>
     </option>
   </component>
@@ -237,7 +188,7 @@
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
-              <item name="scikit-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="scikit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
@@ -258,11 +209,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shapercore/Modules/preprocessing/sklearn" />
       <recent name="$PROJECT_DIR$/services/nginx/config" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/shapercore" />
       <recent name="$PROJECT_DIR$/shapercore/Modules/natural_language" />
-      <recent name="$PROJECT_DIR$/shapercore/Modules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.unit_test">
+  <component name="RunManager" selected="Python.scikit_normalize">
     <configuration name="meta_data_manipulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="shaperML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,6 +242,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shapercore/Modules/metaclass/Module_Data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scikit_normalize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="shaperML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/normalize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,6 +315,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scikit_normalize" />
         <item itemvalue="Python.unit_test" />
         <item itemvalue="Python.meta_data_manipulation" />
         <item itemvalue="Python.test" />
@@ -372,7 +345,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32944915" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32838982" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -389,16 +362,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/represent_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/remove_punct_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -715,52 +678,6 @@
         <state relative-caret-position="-450" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelEncode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_MaxAbsScaler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_minmaxscaler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_normalize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_onehot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
@@ -771,10 +688,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit-learn/scikit_LabelBinarizer.py">
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/LabelBinarizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="90">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/LabelEncode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/MaxAbsScaler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/minmaxscaler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/normalize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/onehot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/standardscaler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
           </folding>
@@ -783,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="420">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>

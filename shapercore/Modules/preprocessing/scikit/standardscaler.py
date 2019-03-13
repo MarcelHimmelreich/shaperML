@@ -2,7 +2,7 @@ from shapercore.Modules.metaclass.Module_Preprocessing import  Data
 from sklearn.preprocessing import StandardScaler
 
 
-class OneHotEncoder(Data):
+class StandardScaler(Data):
     def __init__(self, copy=True, with_mean=True, with_std=True):
         self._copy = copy
         self._with_mean = with_mean
