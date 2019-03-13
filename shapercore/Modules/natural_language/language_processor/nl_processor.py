@@ -5,7 +5,7 @@ from shapercore.Modules.natural_language.language_processor.named_entity_tokeniz
 from shapercore.Modules.natural_language.language_processor.pos_tokenizer import POSTokenizer
 from shapercore.Modules.natural_language.language_processor.word_list_entry_tokenizer import WordlistEntryTokenizer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-
+from shapercore.Utility import Utility as util
 
 
 class NaturalLanguageProcessor(Data):
