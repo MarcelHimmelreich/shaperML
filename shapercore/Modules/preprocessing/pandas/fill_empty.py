@@ -1,8 +1,9 @@
 from shapercore.Modules.metaclass.Module_Data import Data
+from shapercore.Utility import Utility as Util
 import numbers
 
 
-class FillEmptyCellsVisitor(Data):
+class FillEmptyCells(Data):
     def __init__(self, column, feature_type, value):
         self._column = column
         self._type = feature_type

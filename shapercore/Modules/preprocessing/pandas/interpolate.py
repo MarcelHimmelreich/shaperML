@@ -1,4 +1,5 @@
 from shapercore.Modules.metaclass.Module_Data import Data
+from shapercore.Utility import Utility as Util
 
 
 class Interpolate(Data):

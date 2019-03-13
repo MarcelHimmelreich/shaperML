@@ -1,5 +1,7 @@
 from shapercore.Modules.metaclass.Module_Data import Data
 import pandas as pd
+from shapercore.Utility import Utility as Util
+
 
 # Calculate arithmetic median for values
 class Condense(Data):
