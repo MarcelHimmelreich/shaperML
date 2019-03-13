@@ -16,7 +16,7 @@ from shapercore.Modules.preprocessing.pandas.condense import Condense
 from shapercore.Modules.preprocessing.pandas.condense_simple import CondenseSimple
 from shapercore.Modules.preprocessing.pandas.fill_empty import FillEmptyCells
 
-from shapercore.Modules.preprocessing.
+from shapercore.Modules.preprocessing
 
 #Required
 # Table Column Parameter

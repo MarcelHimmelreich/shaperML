@@ -1,5 +1,6 @@
 from shapercore.Modules.metaclass.Module_Preprocessing import  Data
 from sklearn.preprocessing import LabelBinarizer
+from shapercore.Utility import Utility as Util
 
 
 class LabelBinarizer(Data):
@@ -21,5 +22,5 @@ class LabelBinarizer(Data):
             dataframe.values = data
             element.set_dataframe(dataframe)
         except Exception as error:
-            print("Unable to perform label binarizing")
-            print("Error: " + str(error))
+            Util.print_error("Unable to label binarize Dataframe: " + str(error))
+            Util.print_detailed_error()
