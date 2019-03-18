@@ -17,6 +17,22 @@ services:
   ports:
     - "9100:9100"
 
+ sql-exporter:
+  build: services/sql_exporter
+  command: "SERVER=postgres USERNAME=postgres PASSWORD=postgres DEBUG=app"
+  depends_on:
+    - postgres
+  ports:
+    - "4000:4000"
+
+ nginx-exporter:
+  image: nginx/nginx-prometheus-exporter:0.3.0
+  command: "-nginx.scrape-uri http://<localhost>:80/stub_status"
+  depends_on:
+    - nginx
+  ports:
+    - "9113:9113"
+
  grafana:
   image: grafana/grafana
   links:

@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3d4f38-2131-4cf6-a6a9-8a42ee6dc107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shaperML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shaperML.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/jupyter/config.env" beforeDir="false" afterPath="$PROJECT_DIR$/services/jupyter/config.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/jupyter/jupyter.pem" beforeDir="false" afterPath="$PROJECT_DIR$/services/jupyter/jupyter.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/superset/superset_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/superset/superset_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadToDatabase.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadToDatabase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Optimizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/nginx/config/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/services/nginx/config/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/prometheus/prometheus.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,52 +18,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="128" column="19" lean-forward="true" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services/superset/superset_config.py">
+        <entry file="file://$PROJECT_DIR$/services/nginx/config/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="217">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/postgres/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/services/sql_exporter/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/prometheus/prometheus.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/jupyter/jupyter.pem">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/jupyter/config.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.env">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -91,8 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/lemmatize_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/ngram_test.py" />
         <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/remove_char_test.py" />
         <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/remove_punct_test.py" />
         <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/represent_test.py" />
@@ -140,8 +114,10 @@
         <option value="$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py" />
         <option value="$PROJECT_DIR$/shapercore/Optimizer.py" />
         <option value="$PROJECT_DIR$/services/jupyter/config.env" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/services/superset/superset_config.py" />
+        <option value="$PROJECT_DIR$/services/prometheus/prometheus.yml" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/services/nginx/config/nginx.conf" />
       </list>
     </option>
   </component>
@@ -175,25 +151,20 @@
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="jupyter" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="postgres" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="prometheus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="superset" type="462c0819:PsiDirectoryNode" />
+              <item name="sql_exporter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
@@ -397,40 +368,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/start_with_number.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/text_to_binary.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/character_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/mask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/interpolate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -658,13 +595,6 @@
     <entry file="file://$PROJECT_DIR$/services/nginx/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/nginx/config/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -674,9 +604,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/test.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -692,13 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/prometheus/prometheus.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -731,17 +651,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="128" column="19" lean-forward="true" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/superset/superset_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx_exporter/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/prometheus/prometheus.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/config.yml.dist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/metrics.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/config/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
