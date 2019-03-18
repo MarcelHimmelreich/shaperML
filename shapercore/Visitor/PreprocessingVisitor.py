@@ -3,9 +3,11 @@ from fastapi import FASTAPI
 #Visitor Pattern
 from shapercore.Visitor.MetaClass.Dataframe import Dataframe
 
+
 #Data Manipulation
 from shapercore.Modules.data.Database.LoadFromDatabase import LoadFromDatabase
 from shapercore.Modules.data.Database.LoadToDatabase import LoadToDatabase
+
 
 #Natural Language
 from shapercore.Modules.preprocessing.pandas.split import Split
@@ -25,7 +27,7 @@ from shapercore.Modules.preprocessing.scikit.onehot import OneHotEncoder
 from shapercore.Modules.preprocessing.scikit.standardscaler import StandardScaler
 
 
-#Required
+# Required
 # Table Column Parameter
 
 app = FASTAPI()

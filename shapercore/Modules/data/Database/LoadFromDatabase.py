@@ -13,15 +13,10 @@ class LoadFromDatabase(Data):
         self.pwd = os.environ["SHARED_PASSWORD"]
         self.con = create_engine("postgres://shared:{pwd}@postgres/shared".format(**locals()))
 
-    def requirement(self):
-        print("test")
-
-    def unit_test(self):
-        print("test")
-
-    def visit(self):
+    def visit(self, element):
+        dataframe = pd.Dataframe()
         # Load
-        pd.read_sql(sql="SELECT * FROM sample", con=con)
-
+        dataframe.read_sql(sql="SELECT * FROM sample", con=con)
+        element.set_dataframe(dataframe)
 
 

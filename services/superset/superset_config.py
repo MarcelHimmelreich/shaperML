@@ -21,7 +21,8 @@ POSTGRES_PORT = get_env_variable('POSTGRES_PORT')
 POSTGRES_DB = get_env_variable('POSTGRES_DB')
 
 # The SQLAlchemy connection string.
-SQLALCHEMY_DATABASE_URI = 'postgresql://%s:%s@%s:%s/%s' % (POSTGRES_USER,
+# postgresql+psycopg2://superset:superset@postgres:5432/superset
+SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://%s:%s@%s:%s/%s' % (POSTGRES_USER,
                                                            POSTGRES_PASSWORD,
                                                            POSTGRES_HOST,
                                                            POSTGRES_PORT,

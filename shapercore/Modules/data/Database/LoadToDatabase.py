@@ -15,19 +15,8 @@ class LoadToDatabase(Data):
         self.con = create_engine(
             "postgres://shared:{pwd}@postgres/shared".format(**locals()))
 
-    def test_unit(self):
-        pass
-
     def visit(self, element):
-
-
-        # create a sample dataframe
-        df_sample = pd.DataFrame(
-            [
-                [1, 2, 3],
-                [4, 5, 6]
-            ],
-            columns=["a", "b", "c"])
+        dataframe = element.get_dataframe()
 
         # Write
-        df_sample.to_sql(name="sample", con=self.con, index=False)
+        dataframe.to_sql(name="sample", con=self.con, index=False)

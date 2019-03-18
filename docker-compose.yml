@@ -56,15 +56,17 @@ services:
    - ../../superset:/home/superset/superset
 
  jupyter:
-  build:
-   context: ./services/jupyter
+  image: jupyter/datascience-notebook
   volumes:
    - ./services/jupyter/notebooks:/notebooks
    - ./services/jupyter/data:/data
   links:
    - postgres
+   - minio
   ports:
    - 8888:8888
+  command: "start-notebook.sh \
+   --NotebookApp.password=${ACCESS_TOKEN}"
 
  nginx:
   build: services/nginx/
@@ -110,11 +112,11 @@ services:
   image: postgres:alpine
   volumes:
    - ./services/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
-   - ./services/postgres/data:/var/lib/postgresql/data
+   - postgres:/data
   environment:
-   POSTGRES_USER: superset
-   POSTGRES_PASSWORD: superset
-   POSTGRES_DB: superset
+   POSTGRES_USER: postgres
+   POSTGRES_PASSWORD: postgres
+   POSTGRES_DB: postgres
   ports:
    - 5432:5432
 

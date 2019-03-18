@@ -11,12 +11,8 @@ class LoadFromStorage(Data):
             endpoint="minio:9000",
             access_key=os.environ["MINIO_ACCESS_KEY"],
             secret_key=os.environ["MINIO_SECRET_KEY"],
-            secure=False
-        )
+            secure=False)
 
-    def unit_test(self):
-        print("test")
-
-    def execute(self):
+    def execute(self, element):
         # Read
         self.minio_client.get_object("sample-bucket", "sample-file.txt").data.decode()
