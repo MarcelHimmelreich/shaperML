@@ -21,7 +21,7 @@ ENV ADMIN_USERNAME admin
 ENV ADMIN_FIRST_NAME admin
 ENV ADMIN_LAST_NAME user
 ENV ADMIN_EMAIL admin@nowhere.com
-ENV ADMIN_PWD superset
+ENV ADMIN_PWD admin
 
 # by default only includes PostgreSQL because I'm selfish
 ENV DB_PACKAGES libpq-dev

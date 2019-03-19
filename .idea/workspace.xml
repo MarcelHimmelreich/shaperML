@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3d4f38-2131-4cf6-a6a9-8a42ee6dc107" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shapercore/API/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/services/nginx/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/nginx/config/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/services/nginx/config/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/prometheus/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/sql_exporter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/sql_exporter/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/sql_exporter/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/sql_exporter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/sql_exporter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/sql_exporter/metrics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/sql_exporter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/superset/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/services/superset/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaperAPI/Learning/Learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/API/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaperAPI/NaturalLanguage/NaturalLanguage.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shaperAPI/Preprocessing/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Classification/classfication_SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Visitor/LearningVisitor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/accuracy_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/accuracy_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/f1_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/f1_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/precision_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/precision_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/r2_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/r2_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/recall_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/recall_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/cross_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/cross_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/fit.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/fit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/set_estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Modules/learning/set_estimator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Regression/regression_SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Visitor/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapercore/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/shapercore/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,39 +41,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services/nginx/config/nginx.conf">
+        <entry file="file://$PROJECT_DIR$/shapercore/API/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="570">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/sql_exporter/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/f1_score.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/prometheus/prometheus.yml">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/fit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/set_estimator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/predict.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,25 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/remove_char_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/remove_punct_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/represent_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/stem_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/tokenizer_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/uppercase_test.py" />
-        <option value="$PROJECT_DIR$/shapercore/ModulesUnitTest/natural_language/lowercase_test.py" />
-        <option value="$USER_HOME$/Downloads/aarsol-mle-0ad50bb464e9/server/visitors/NaturalLanguageProcessing/NaturalLanguageVisitor.py" />
-        <option value="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/lemmatize.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/lowercase.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/ngram.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/remove_character.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/remove_punctuation.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/stem.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/uppercase.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/character_sum.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/start_with_number.py" />
-        <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/longest_word.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/mean_word.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/text_to_numeric/text_to_binary.py" />
         <option value="$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/join.py" />
@@ -116,8 +155,27 @@
         <option value="$PROJECT_DIR$/services/jupyter/config.env" />
         <option value="$PROJECT_DIR$/services/superset/superset_config.py" />
         <option value="$PROJECT_DIR$/services/prometheus/prometheus.yml" />
+        <option value="$PROJECT_DIR$/shapercore/Visitor/Preprocessing/LearningVisitor.py" />
+        <option value="$PROJECT_DIR$/shapercore/Visitor/LearningVisitor.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/f1_score.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/precision_score.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/r2_score.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Metric/recall_score.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/cross_validation.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/scikit-learn/Model/set_estimator.py" />
+        <option value="$PROJECT_DIR$/shaperAPI/main.py" />
+        <option value="$PROJECT_DIR$/shapercore/Dockerfile" />
+        <option value="$PROJECT_DIR$/services/sql_exporter/examples/sql_exporter.yml" />
+        <option value="$PROJECT_DIR$/services/sql_exporter/documentation/sql_exporter.yml" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/shapercore/app.py" />
+        <option value="$PROJECT_DIR$/services/nginx/Dockerfile" />
         <option value="$PROJECT_DIR$/services/nginx/config/nginx.conf" />
+        <option value="$PROJECT_DIR$/services/superset/Dockerfile" />
+        <option value="$PROJECT_DIR$/shapercore/API/main.py" />
+        <option value="$PROJECT_DIR$/shapercore/Visitor/MetaClass/Model.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/predict.py" />
+        <option value="$PROJECT_DIR$/shapercore/Modules/learning/fit.py" />
       </list>
     </option>
   </component>
@@ -150,26 +208,27 @@
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="sql_exporter" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
               <item name="shaperML" type="462c0819:PsiDirectoryNode" />
               <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shaperML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shaperML" type="462c0819:PsiDirectoryNode" />
+              <item name="shapercore" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="MetaClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,14 +241,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shapercore/Modules/learning" />
+      <recent name="$PROJECT_DIR$/shapercore/Modules/learning/sk-learn" />
+      <recent name="$PROJECT_DIR$/shapercore/API" />
+      <recent name="$PROJECT_DIR$/shapercore/Visitor" />
       <recent name="$PROJECT_DIR$/services/prometheus" />
-      <recent name="$PROJECT_DIR$/services" />
-      <recent name="$PROJECT_DIR$/shapercore/Modules/preprocessing/sklearn" />
-      <recent name="$PROJECT_DIR$/services/nginx/config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/sql_exporter" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -345,12 +405,12 @@
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31590182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31963715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32944915" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32838982" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,246 +428,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/interpolate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/fill_empty.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="57" selection-start-column="57" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense_simple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/pandas/condense.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="107" selection-start-line="107" selection-end-line="108" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/LabelBinarizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="68" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/LabelEncode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/MaxAbsScaler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/minmaxscaler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/normalize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/onehot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/preprocessing/scikit/standardscaler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/pos_tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/named_entity_tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/lemma_tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/word_list_entry_tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/join.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/language_processor/nl_processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/NaturalLanguageVisitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Dataframe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadIntoStorage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/Database/LoadFromDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/Database/LoadToDatabase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Client.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Modules/data/File_Storage/LoadFromStorage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/shapercore/Optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -635,9 +455,6 @@
     <entry file="file://$PROJECT_DIR$/config.env">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/superset/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/superset/superset-init.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -651,43 +468,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/superset/superset_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/nginx_exporter/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shapercore/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/prometheus/prometheus.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/sql_exporter/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/sql_exporter/config.yml.dist">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/config.go" />
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/config.yml.dist" />
     <entry file="file://$PROJECT_DIR$/services/sql_exporter/metrics.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/sql_exporter/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/sql_exporter/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -697,17 +481,276 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/services/prometheus/prometheus.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/LearningVisitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/sk-learn/Classification/classfication_SVM.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/accuracy_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/natural_language/nltk/join.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/precision_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/r2_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/recall_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/NaturalLanguageVisitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="203" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/PreprocessingVisitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaperAPI/Learning/Learning.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaperAPI/NaturalLanguage/NaturalLanguage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shaperAPI/Preprocessing/Preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/documentation/sql_exporter.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/examples/sql_exporter.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="83" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/superset/superset_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/config/config.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sql_exporter/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/container-files/config/init/vhost-proxy.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/container-files/config/init/vhost-proxy-https.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/container-files/etc/nginx/conf.d/stub-status.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/container-files/config/init/vhost-default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/nginx/config/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="585">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx_exporter/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx_exporter/exporter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="81" column="8" lean-forward="true" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/superset/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/sk-learn/Regression/regression_SVM.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/fit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/set_estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Visitor/MetaClass/Model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/Modules/learning/f1_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shapercore/API/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

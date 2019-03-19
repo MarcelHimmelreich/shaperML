@@ -1,6 +1,6 @@
 from shapercore.Modules.metaclass.Module_Learning import Data
 from sklearn.model_selection import cross_validate
-
+from shapercore.Utility import Utility as Util
 
 class CrossValidation(Data):
     def __init__(self, estimator, k_fold):

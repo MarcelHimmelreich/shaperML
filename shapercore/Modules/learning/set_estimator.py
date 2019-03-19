@@ -20,6 +20,7 @@ from sklearn.linear_model import Lasso
 from sklearn.linear_model import ElasticNet
 from sklearn.linear_model import SGDClassifier, SGDRegressor
 from sklearn.naive_bayes import MultinomialNB
+from shapercore.Utility import Utility as Util
 
 
 class SetEstimator(Data):

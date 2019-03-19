@@ -1,8 +1,8 @@
 from shapercore.Modules.metaclass.Module_Learning import Data
-from sklearn.metrics import recall_score
+from sklearn.metrics import precision_score
+from shapercore.Utility import Utility as Util
 
-
-class RecallScore(Data):
+class PrecisionScore(Data):
     def __init__(self, true, predict, average=None):
         self._true = true
         self._predict = predict
@@ -11,7 +11,7 @@ class RecallScore(Data):
     def visit(self, model):
         try:
             result = model.get_metric()
-            result['RecallScore'] = recall_score(self._true, self._predict, average=self._average)
+            result['PrecScore'] = precision_score(self._true, self._predict, average=self._average)
             model.set_metric(result)
         except Exception as error:
             Util.print_error("Unable to set estimator of Model")
