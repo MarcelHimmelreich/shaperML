@@ -11,3 +11,4 @@ sklearn
 nltk
 keras
 app
+email-validator

@@ -26,14 +26,17 @@ services:
 
  nginx-exporter:
   image: nginx/nginx-prometheus-exporter:0.3.0
-  command: "-nginx.scrape-uri http://localhost:80/stub_status"
+  command: -nginx.scrape-uri=http://172.18.0.1:80/stub_status
   depends_on:
     - nginx
   ports:
     - "9113:9113"
+
  nginx:
   build: services/nginx/
   restart: always
+  volumes:
+    - ./services/nginx/nginx.conf:/etc/nginx/nginx.conf
   ports:
     - "80:80"
   deploy:
