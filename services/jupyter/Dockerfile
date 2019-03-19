@@ -23,7 +23,12 @@ RUN pip install -U geopandas \
                    geohash2 \
                    tables \
                    mixpanel \
-                   GeoAlchemy2
+                   GeoAlchemy2 \
+                   pandas \
+                   numpy \
+                   scipy \
+                   sklearn \
+                   keras
 
 VOLUME /notebooks
 WORKDIR /notebooks

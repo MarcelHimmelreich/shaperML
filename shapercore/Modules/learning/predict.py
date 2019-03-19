@@ -1,6 +1,6 @@
 from shapercore.Modules.metaclass.Module_Learning import Data
-from sklearn.metrics import f1_score
 from shapercore.Utility import Utility as Util
+
 
 class Predict(Data):
     def __init__(self, predict):

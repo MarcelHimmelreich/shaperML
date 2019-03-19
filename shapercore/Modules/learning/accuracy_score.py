@@ -1,6 +1,6 @@
 from shapercore.Modules.metaclass.Module_Learning import Data
 from sklearn.metrics import accuracy_score
-
+from shapercore.Utility import Utility as Util
 
 class AccuracyScore(Data):
     def __init__(self, true, predict):

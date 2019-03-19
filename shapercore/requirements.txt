@@ -1,4 +1,13 @@
-flask
 gunicorn
 psycopg2
 redis
+fastapi
+pandas
+numpy
+scipy
+minio
+os
+sklearn
+nltk
+keras
+app

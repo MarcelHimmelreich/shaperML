@@ -17,13 +17,30 @@ services:
   ports:
     - "9100:9100"
 
+ postgres_exporter:
+  image: wrouesnel/postgres_exporter
+  environment:
+    - DATA_SOURCE_NAME="postgresql+psycopg2://postgres:postgres@postgres:5432/postgres"
+  ports:
+    - "9237:9237"
+
  nginx-exporter:
   image: nginx/nginx-prometheus-exporter:0.3.0
-  command: "-nginx.scrape-uri http://<localhost>:80/stub_status"
+  command: "-nginx.scrape-uri http://localhost:80/stub_status"
   depends_on:
     - nginx
   ports:
     - "9113:9113"
+ nginx:
+  build: services/nginx/
+  restart: always
+  ports:
+    - "80:80"
+  deploy:
+    mode: replicated
+    replicas: 3
+  depends_on:
+    - shapercore
 
  grafana:
   image: grafana/grafana
@@ -53,7 +70,7 @@ services:
     #SUPERSET_ENV: production
     SUPERSET_ENV: development
   ports:
-   - 8088:8088
+   - "8088:8088"
   depends_on:
    - postgres
    - minio
@@ -72,44 +89,27 @@ services:
    - postgres
    - minio
   ports:
-   - 8888:8888
+   - "8888:8888"
   command: "start-notebook.sh \
    --NotebookApp.password=${ACCESS_TOKEN}"
 
- nginx:
-  build: services/nginx/
+ shapercore:
+  build: ./shapercore
+  image: tiangolo/uvicorn-gunicorn-fastapi:python3.6
   restart: always
   ports:
-    - 80:80
-  deploy:
-    mode: replicated
-    replicas: 3
-  depends_on:
-    - shapercore
-
- shapercore:
-  build: ./shapercore/
-  restart: always
-  expose:
-    - 8000
-  volumes:
-    - ./shapercore:/home/flask/app/web
+    - "8080:8080"
   depends_on:
     - postgres
     - minio
-  environment:
-   FLASK_DEBUG: 1
-  deploy:
-   mode: replicated
-   replicas: 3
 
  minio:
-  image: minio/minio
+  image: minio/minio:latest
   restart: always
   volumes:
     - minio_volume:/data
   ports:
-    - 9009:9009
+    - "9000:9000"
   environment:
    MINIO_ACCESS_KEY: minio
    MINIO_SECRET_KEY: minio123
@@ -126,14 +126,11 @@ services:
    POSTGRES_PASSWORD: postgres
    POSTGRES_DB: postgres
   ports:
-   - 5432:5432
+   - "5432:5432"
 
 volumes:
   postgres:
-    external: false
   minio_volume:
-    external: false
-  portainer_volume:
-    external: false
+
 
 
